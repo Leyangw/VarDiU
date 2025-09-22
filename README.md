@@ -41,4 +41,4 @@ Train VarDiU Flow variational disribution with true score given:
 
 ```bash
 python train_upper_flow.py -true_score  --sigma_min 0.1 --sigma_max 20 --power 2.0 --device cuda:0 --weight sigma2 --seed 0 --flow_type NSF --flow_length 4
-``
+```
