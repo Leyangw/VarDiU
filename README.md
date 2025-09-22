@@ -31,7 +31,12 @@ conda env create -f environment.yaml
 
 
 ### Training
-After activating the environment, you can run the scripts or use the modules provided in the repository. Train VarDiU Gaussian variational disribution with true score given:
+After activating the environment, you can run the scripts or use the modules provided in the repository. 
+```bash
+conda activate VarDiU
+```
+
+Train VarDiU Gaussian variational disribution with true score given:
 
 ```bash
 python train_upper_diffusion.py -true_score  --sigma_min 0.1 --sigma_max 20 --power 2.0 --device cuda:0 --weight sigma2 --seed 0
