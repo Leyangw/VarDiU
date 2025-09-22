@@ -47,3 +47,17 @@ Train VarDiU Flow variational disribution with true score given:
 ```bash
 python train_upper_flow.py -true_score  --sigma_min 0.1 --sigma_max 20 --power 2.0 --device cuda:0 --weight sigma2 --seed 0 --flow_type NSF --flow_length 4
 ```
+
+
+## Citation
+
+If you find our paper, code, and/or data useful for your research, please cite our paper:
+
+```
+@article{wang2025vardiu,
+  title={VarDiU: A Variational Diffusive Upper Bound for One-Step Diffusion Distillation},
+  author={Wang, Leyang and Zhang, Mingtian and Ou, Zijing and Barber, David},
+  journal={arXiv preprint arXiv:2508.20646},
+  year={2025}
+}
+```
